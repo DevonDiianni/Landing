@@ -1,0 +1,46 @@
+[GENERATED OBJECT FILE]
+b__landing-main.o
+[PROJECT FILES]
+C:\Users\dxd01110\Desktop\landing\landing.gpr
+20200205194852
+C:\gnat\2019\share\gpr\xmlada_dom.gpr
+20190518135638
+C:\gnat\2019\share\gpr\xmlada_input.gpr
+20190518135638
+C:\gnat\2019\share\gpr\xmlada_unicode.gpr
+20190518135638
+C:\gnat\2019\share\gpr\xmlada_sax.gpr
+20190518135638
+C:\gnat\2019\share\gpr\xmlada_schema.gpr
+20190518135638
+C:\gnat\2019\share\gpr\aws.gpr
+20190518141016
+[BOUND OBJECT FILES]
+C:\Users\dxd01110\Desktop\landing\obj\opt\landing.o
+C:\Users\dxd01110\Desktop\landing\obj\opt\landing-dispatchers.o
+C:\Users\dxd01110\Desktop\landing\obj\opt\landing-main.o
+[GENERATED SOURCE FILES]
+b__landing-main.ads
+b__landing-main.adb
+b__landing-main.ali
+[RESULTING OPTIONS]
+-LC:\Users\dxd01110\Desktop\landing\obj\opt\
+-LC:\Users\dxd01110\Desktop\landing\obj\opt\
+-LC:\gnat\2019\lib\aws.relocatable\
+-LC:\gnat\2019\lib\xmlada\xmlada_schema.relocatable\
+-LC:\gnat\2019\lib\xmlada\xmlada_sax.relocatable\
+-LC:\gnat\2019\lib\xmlada\xmlada_unicode.relocatable\
+-LC:\gnat\2019\lib\xmlada\xmlada_input.relocatable\
+-LC:\gnat\2019\lib\xmlada\xmlada_dom.relocatable\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-shared
+-shared-libgcc
+-lws2_32
+-lgnarl-2019
+-lgnat-2019
+-lws2_32
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
+[RUN PATH OPTION]
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/

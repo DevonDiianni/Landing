@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\README</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 9" >
+      <vfs_project>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 9" >
+      <vfs_project>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 9" >
+      <vfs_project>C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file>C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\README</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 9">
+      <vfs_project >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 9">
+      <vfs_project >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 9">
+      <vfs_project >C:\Users\dxd01110\Desktop\landing\landing.gpr</vfs_project>
+      <vfs_file >C:\Users\dxd01110\Desktop\landing\src\landing-main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

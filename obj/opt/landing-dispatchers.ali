@@ -1,0 +1,414 @@
+V "GNAT Lib v2019"
+A -O2
+A -gnatA
+A -gnatn
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U landing.dispatchers%b	landing-dispatchers.adb	0f08f1ae OO PK
+W ada%s			ada.ads			ada.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aws%s			aws.ads			aws.ali
+W aws.messages%s	aws-messages.adb	aws-messages.ali
+W aws.mime%s		aws-mime.adb		aws-mime.ali
+W aws.services%s	aws-services.ads	aws-services.ali
+W aws.services.web_block%s  aws-services-web_block.ads  aws-services-web_block.ali
+W aws.services.web_block.registry%s  aws-services-web_block-registry.adb  aws-services-web_block-registry.ali
+W aws.templates%s	aws-templates.ads	aws-templates.ali
+W landing%s		landing.ads		landing.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U landing.dispatchers%s	landing-dispatchers.ads	d6990df9 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W aws%s			aws.ads			aws.ali
+W aws.config%s		aws-config.adb		aws-config.ali
+W aws.response%s	aws-response.adb	aws-response.ali
+W aws.services%s	aws-services.ads	aws-services.ali
+W aws.services.dispatchers%s  aws-services-dispatchers.ads  aws-services-dispatchers.ali
+W aws.services.dispatchers.uri%s  aws-services-dispatchers-uri.adb  aws-services-dispatchers-uri.ali
+W aws.status%s		aws-status.adb		aws-status.ali
+W landing%s		landing.ads		landing.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-calend.ads		20190518041256 474d9720 ada.calendar%s
+D a-charac.ads		20190518041256 2d3ec45b ada.characters%s
+D a-chahan.ads		20190518041256 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20190518041256 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20190518041256 61e5e089 ada.containers%s
+D a-cgarso.ads		20190518041256 9129bfa8 ada.containers.generic_array_sort%s
+D a-cohata.ads		20190518041258 80a8c839 ada.containers.hash_tables%s
+D a-chtgke.ads		20190518041258 20177f7b ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20190518041256 7d66b1e3 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20190518041256 11c5978a ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20190518041256 c3ccdc4f ada.containers.hash_tables.generic_operations%b
+D a-conhel.ads		20190518041256 20298884 ada.containers.helpers%s
+D a-conhel.adb		20190518041258 9cc5095b ada.containers.helpers%b
+D a-cihama.ads		20190518041256 bece8dbf ada.containers.indefinite_hashed_maps%s
+D a-cihama.adb		20190518041256 94909b4a ada.containers.indefinite_hashed_maps%b
+D a-cihase.ads		20190518041256 4f8a62e0 ada.containers.indefinite_hashed_sets%s
+D a-cihase.adb		20190518041258 f54eebd2 ada.containers.indefinite_hashed_sets%b
+D a-ciorma.ads		20190518041256 e1f95638 ada.containers.indefinite_ordered_maps%s
+D a-ciorma.adb		20190518041256 8d454eda ada.containers.indefinite_ordered_maps%b
+D a-coinve.ads		20190518041258 b7300cfa ada.containers.indefinite_vectors%s
+D a-coinve.adb		20190518041258 c3b709cc ada.containers.indefinite_vectors%b
+D a-coprnu.ads		20190518041256 0cdf1864 ada.containers.prime_numbers%s
+D a-crbltr.ads		20190518041256 c3e90a86 ada.containers.red_black_trees%s
+D a-crbtgk.ads		20190518041258 ab25d217 ada.containers.red_black_trees.generic_keys%s
+D a-crbtgo.ads		20190518041258 e494c304 ada.containers.red_black_trees.generic_operations%s
+D a-convec.ads		20190518041258 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20190518041256 32f4e1a7 ada.containers.vectors%b
+D a-direct.ads		20190518041256 078228da ada.directories%s
+D a-envvar.ads		20190518041256 00080416 ada.environment_variables%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041256 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20190518041256 7c7305e9 ada.iterator_interfaces%s
+D a-reatim.ads		20190518041258 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-string.ads		20190518041256 90ac6797 ada.strings%s
+D a-strhas.ads		20190518041258 c71c2a52 ada.strings.hash%s
+D a-strmap.ads		20190518041256 e8bb714a ada.strings.maps%s
+D a-strsea.ads		20190518041256 b9bc90ba ada.strings.search%s
+D a-strunb.ads		20190518041256 1656705b ada.strings.unbounded%s
+D a-strunb.adb		20190518041258 750cba06 ada.strings.unbounded%b
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-taside.ads		20190518041258 00e3a3f6 ada.task_identification%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041256 eff36322 ada.unchecked_deallocation%s
+D aws.ads		20190518140918 bb4f9bdb aws%s
+D aws-attachments.ads	20190513040548 2270236e aws.attachments%s
+D aws-config.ads	20190513040548 abec052a aws.config%s
+D aws-config.adb	20190513040548 bdd58607 aws.config%b
+D aws-config-ini.ads	20190513040548 3b5a32c5 aws.config.ini%s
+D aws-containers.ads	20190513040548 c7ab8288 aws.containers%s
+D aws-containers-memory_streams.ads  20190513040548 ea28c859 aws.containers.memory_streams%s
+D aws-containers-string_vectors.ads  20190513040548 b5692847 aws.containers.string_vectors%s
+D aws-containers-string_vectors.ads  20190513040548 b5692847 aws.containers.string_vectors%s
+D aws-containers-tables.ads  20190513040548 dda133b5 aws.containers.tables%s
+D aws-default.ads	20190513040548 4983fa2f aws.default%s
+D aws-digest.ads	20190513040548 f05850e0 aws.digest%s
+D aws-dispatchers.ads	20190513040548 c78b16eb aws.dispatchers%s
+D aws-headers.ads	20190513040548 25633780 aws.headers%s
+D aws-headers-values.ads  20190513040548 e73ab651 aws.headers.values%s
+D aws-messages.ads	20190513040548 0ce1462a aws.messages%s
+D aws-mime.ads		20190513040548 796c9a32 aws.mime%s
+D aws-net.ads		20190513040548 4345e169 aws.net%s
+D aws-os_lib.ads	20190518140930 95d67270 aws.os_lib%s
+D aws-parameters.ads	20190513040548 ff4aa491 aws.parameters%s
+D aws-resources.ads	20190513040548 407ba395 aws.resources%s
+D aws-resources-streams.ads  20190513040548 95c86167 aws.resources.streams%s
+D aws-resources-streams-memory.ads  20190513040548 eb23d323 aws.resources.streams.memory%s
+D aws-resources-streams-memory-zlib.ads  20190513040548 964b70a5 aws.resources.streams.memory.zlib%s
+D aws-response.ads	20190513040548 907d00d3 aws.response%s
+D aws-services.ads	20190513040548 e275bf31 aws.services%s
+D aws-services-dispatchers.ads  20190513040548 ae46fd63 aws.services.dispatchers%s
+D aws-services-dispatchers-uri.ads  20190513040548 40f8a465 aws.services.dispatchers.uri%s
+D aws-services-web_block.ads  20190513040548 d02915e2 aws.services.web_block%s
+D aws-services-web_block-context.ads  20190513040548 9f371694 aws.services.web_block.context%s
+D aws-services-web_block-registry.ads  20190513040548 f8eb29c9 aws.services.web_block.registry%s
+D aws-session.ads	20190513040548 41acdbbb aws.session%s
+D aws-status.ads	20190513040548 715df1ae aws.status%s
+D aws-status.adb	20190513040548 fbda0349 aws.status%b
+D aws-templates.ads	20190513040548 7d4c13ec aws.templates%s
+D aws-translator.ads	20190513040548 722d1ec3 aws.translator%s
+D aws-url.ads		20190513040548 44a3858c aws.url%s
+D aws-utils.ads		20190513040548 8f9a062b aws.utils%s
+D gnat.ads		20190518041258 b5988c27 gnat%s
+D g-bytswa.ads		20190518041256 a4d21639 gnat.byte_swapping%s
+D g-md5.ads		20190518041258 bb55398e gnat.md5%s
+D g-regexp.ads		20190518041256 691be386 gnat.regexp%s
+D g-sechas.ads		20190518041258 3b5ca98e gnat.secure_hashes%s
+D g-sehamd.ads		20190518041256 75201584 gnat.secure_hashes.md5%s
+D g-sehash.ads		20190518041256 66b3b198 gnat.secure_hashes.sha1%s
+D g-shsh32.ads		20190518041258 671c9849 gnat.secure_hashes.sha2_32%s
+D g-shshco.ads		20190518041258 1144502c gnat.secure_hashes.sha2_common%s
+D g-sha1.ads		20190518041256 077f0b47 gnat.sha1%s
+D g-sha256.ads		20190518041258 c083f050 gnat.sha256%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-c.ads		20190518041256 5421119b interfaces.c%s
+D i-cstrin.ads		20190518041256 341d0ddf interfaces.c.strings%s
+D landing.ads		20200205193744 e9e2a21a landing%s
+D landing-dispatchers.ads  20200205193744 354fffd1 landing.dispatchers%s
+D landing-dispatchers.adb  20200205193744 dbb9b0c3 landing.dispatchers%b
+D memory_streams.ads	20190513040550 bf3b9ce5 memory_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-atacco.ads		20190518041258 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190518041258 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20190518041256 b65612c0 system.atomic_counters%b
+D s-carun8.ads		20190518041258 a903718d system.compare_array_unsigned_8%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-finmas.ads		20190518041256 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041258 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041256 597d6634 system.memory%s
+D s-multip.ads		20190518041256 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20190518041258 97504df8 system.os_interface%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041256 ede33ef8 system.pool_global%s
+D s-regexp.ads		20190518041258 9c7d27a7 system.regexp%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041256 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041256 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041256 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20190518041256 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041256 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041256 aedef97e system.stream_attributes%s
+D s-string.ads		20190518041256 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041256 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20190518041258 601f6b72 system.task_info%s
+D s-taspri.ads		20190518041258 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20190518041258 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041258 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041258 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041258 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20190518041258 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-valenu.ads		20190518041258 6201ebfb system.val_enum%s
+D s-valrea.ads		20190518041258 0e7fecd5 system.val_real%s
+D s-win32.ads		20190518041256 90ecf4e6 system.win32%s
+D templates_parser.ads	20190513040550 619e699c templates_parser%s
+D templates_parser-utils.ads  20190513040550 8849593d templates_parser.utils%s
+D templates_parser_tasking.ads  20190513040550 4c0209f0 templates_parser_tasking%s
+D zlib.ads		20190513040550 0714e1ed zlib%s
+G a e
+G c Z s b [initialize landing__dispatchers 11 14 none]
+G c Z s b [dispatch landing__dispatchers 24 24 none]
+G c Z s b [dispatch landing__dispatchers 34 24 none]
+G c Z s b [dispatch landing__dispatchers 44 24 none]
+G c Z s b [dispatch landing__dispatchers 54 24 none]
+G c Z s s [defaultDA landing__dispatchers 60 9 none]
+G c Z s s [defaultDF landing__dispatchers 60 9 none]
+G c Z s s [defaultDI landing__dispatchers 60 9 none]
+G c Z s s [defaultIP landing__dispatchers 60 9 none]
+G c Z s s [cssDA landing__dispatchers 62 9 none]
+G c Z s s [cssDF landing__dispatchers 62 9 none]
+G c Z s s [cssDI landing__dispatchers 62 9 none]
+G c Z s s [cssIP landing__dispatchers 62 9 none]
+G c Z s s [jsDA landing__dispatchers 64 9 none]
+G c Z s s [jsDF landing__dispatchers 64 9 none]
+G c Z s s [jsDI landing__dispatchers 64 9 none]
+G c Z s s [jsIP landing__dispatchers 64 9 none]
+G c Z s s [imageDA landing__dispatchers 66 9 none]
+G c Z s s [imageDF landing__dispatchers 66 9 none]
+G c Z s s [imageDI landing__dispatchers 66 9 none]
+G c Z s s [imageIP landing__dispatchers 66 9 none]
+G r c none [initialize landing__dispatchers 11 14 none] [www_root aws__config 169 13 none]
+G r c none [dispatch landing__dispatchers 24 24 none] [uri aws__status 79 13 none]
+G r c none [dispatch landing__dispatchers 24 24 none] [build aws__services__web_block__registry 137 13 none]
+G r c none [dispatch landing__dispatchers 34 24 none] [uri aws__status 79 13 none]
+G r c none [dispatch landing__dispatchers 34 24 none] [acknowledge aws__response 234 13 none]
+G r c none [dispatch landing__dispatchers 34 24 none] [file aws__response 156 13 none]
+G r c none [dispatch landing__dispatchers 44 24 none] [uri aws__status 79 13 none]
+G r c none [dispatch landing__dispatchers 44 24 none] [acknowledge aws__response 234 13 none]
+G r c none [dispatch landing__dispatchers 44 24 none] [file aws__response 156 13 none]
+G r c none [dispatch landing__dispatchers 44 24 none] [parse templates_parser 484 13 none]
+G r c none [dispatch landing__dispatchers 44 24 none] [build aws__response 105 13 none]
+G r c none [dispatch landing__dispatchers 54 24 none] [uri aws__status 79 13 none]
+G r c none [dispatch landing__dispatchers 54 24 none] [acknowledge aws__response 234 13 none]
+G r c none [dispatch landing__dispatchers 54 24 none] [content_type aws__mime 146 13 none]
+G r c none [dispatch landing__dispatchers 54 24 none] [file aws__response 156 13 none]
+G r j handler [defaultDA landing__dispatchers 60 9 none] [handlerDA aws__services__dispatchers__uri 118 9 none]
+G r d handler [defaultDA landing__dispatchers 60 9 none] [adjust aws__dispatchers 70 25 none]
+G r e handler [defaultDF landing__dispatchers 60 9 none] [finalize aws__services__dispatchers__uri 89 25 none]
+G r k handler [defaultDF landing__dispatchers 60 9 none] [handlerDF aws__services__dispatchers__uri 118 9 none]
+G r f handler [defaultDI landing__dispatchers 60 9 none] [initialize aws__dispatchers 69 25 none]
+G r s handler [defaultIP landing__dispatchers 60 9 none] [handlerIP aws__services__dispatchers__uri 118 9 none]
+G r j handler [cssDA landing__dispatchers 62 9 none] [handlerDA aws__services__dispatchers__uri 118 9 none]
+G r d handler [cssDA landing__dispatchers 62 9 none] [adjust aws__dispatchers 70 25 none]
+G r e handler [cssDF landing__dispatchers 62 9 none] [finalize aws__services__dispatchers__uri 89 25 none]
+G r k handler [cssDF landing__dispatchers 62 9 none] [handlerDF aws__services__dispatchers__uri 118 9 none]
+G r f handler [cssDI landing__dispatchers 62 9 none] [initialize aws__dispatchers 69 25 none]
+G r s handler [cssIP landing__dispatchers 62 9 none] [handlerIP aws__services__dispatchers__uri 118 9 none]
+G r j handler [jsDA landing__dispatchers 64 9 none] [handlerDA aws__services__dispatchers__uri 118 9 none]
+G r d handler [jsDA landing__dispatchers 64 9 none] [adjust aws__dispatchers 70 25 none]
+G r e handler [jsDF landing__dispatchers 64 9 none] [finalize aws__services__dispatchers__uri 89 25 none]
+G r k handler [jsDF landing__dispatchers 64 9 none] [handlerDF aws__services__dispatchers__uri 118 9 none]
+G r f handler [jsDI landing__dispatchers 64 9 none] [initialize aws__dispatchers 69 25 none]
+G r s handler [jsIP landing__dispatchers 64 9 none] [handlerIP aws__services__dispatchers__uri 118 9 none]
+G r j handler [imageDA landing__dispatchers 66 9 none] [handlerDA aws__services__dispatchers__uri 118 9 none]
+G r d handler [imageDA landing__dispatchers 66 9 none] [adjust aws__dispatchers 70 25 none]
+G r e handler [imageDF landing__dispatchers 66 9 none] [finalize aws__services__dispatchers__uri 89 25 none]
+G r k handler [imageDF landing__dispatchers 66 9 none] [handlerDF aws__services__dispatchers__uri 118 9 none]
+G r f handler [imageDI landing__dispatchers 66 9 none] [initialize aws__dispatchers 69 25 none]
+G r s handler [imageIP landing__dispatchers 66 9 none] [handlerIP aws__services__dispatchers__uri 118 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 101|2r6 3r6 12r8 13r8
+X 13 a-conhel.ads
+84R12 Reference_Control_Type<32|43R9>
+X 15 a-cihama.ads
+53R9*Map<32|43R9>
+X 19 a-ciorma.ads
+236R9 Node_Type
+237P9 Node_Access(236R9)
+X 20 a-ciorma.adb
+56V13 Color{24|37E9} 26|45i19
+59V13 Left{19|237P9[56|193]} 26|41i19[56|193]
+62V13 Parent{19|237P9[56|193]} 26|39i19[56|193]
+65V13 Right{19|237P9[56|193]} 26|43i19[56|193]
+68U14 Set_Parent 26|40i19[56|193]
+71U14 Set_Left 26|42i19[56|193]
+74U14 Set_Right 26|44i19
+77U14 Set_Color 26|46i19[56|193]
+X 29 a-direct.ads
+76K13*Directories 502e20 101|2w10 47r10 69r10 70r13 101r10
+260V13*Extension{string} 101|70s25
+310V13*Exists{boolean} 101|47s22 69s22 101s22
+X 34 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[21|75]>
+X 37 a-string.ads
+16K13*Strings 35e16 101|3r10 13r12
+X 41 a-strunb.ads
+82K21*Unbounded 756e26 101|3w18 13r20
+87R9*Unbounded_String<32|43R9> 739e14 101|15r15
+103V13*To_Unbounded_String{87R9} 101|116s19
+116V13*To_String{string} 101|45s16 67s16 99s16
+X 47 aws.ads
+32K9*AWS 41e8 100|2r6 3r6 4r6 5r6 9r8 101|5r6 6r6 7r6 8r6
+X 49 aws-config.ads
+45K13*Config 837e15 100|2w10 11r42 101|114r42 116r40
+47R9*Object 771e14 100|11r49 101|114r49
+169V13*WWW_Root{string} 101|116s47
+X 59 aws-dispatchers.ads
+52V13*Ref_Counter{natural}
+69U25 Initialize<32|46p14>
+70U25 Adjust<32|47p14>
+X 62 aws-messages.ads
+36K13*Messages 401e17 101|5w10 52r39 84r39 106r39
+186n31*S404{174E9} 101|52r48 84r48 106r48
+X 63 aws-mime.ads
+30K13*MIME 178e13 101|6w10 49r29 73r16 79r32 103r29
+43a4*Text_CSS{string} 101|49r34
+44a4*Text_Javascript{string} 101|73r21 79r37
+146V13*Content_Type{string} 101|103s34
+X 71 aws-response.ads
+51K13*Response 455e17 100|3w10 26r43 36r43 46r43 56r43 101|22r62 40r43 48r17
+. 52r17 62r43 72r20 78r20 84r17 94r43 102r17 106r17
+59R9*Data<32|43R9> 446e14 100|26r52 36r52 46r52 56r52 101|22r71 40r52 62r52
+. 94r52
+105V13*Build{59R9} 101|72s29
+156V13*File{59R9} 101|48s26 78s29 102s26
+157a7 Content_Type{string} 101|49r13 79r16 103r13
+158a7 Filename{string} 101|50r13 80r16 104r13
+234V13*Acknowledge{59R9} 101|52s26 84s26 106s26
+X 72 aws-services.ads
+32K13*Services 37e17 100|4r10 21r24 32r20 42r19 52r22 60r24 62r21 64r20 66r23
+. 101|7r10 28r14
+X 73 aws-services-dispatchers.ads
+32K22*Dispatchers 64e29 100|4r19 21r33 32r29 42r28 52r31 60r33 62r30 64r29
+. 66r32
+X 74 aws-services-dispatchers-uri.ads
+40K34*URI 123e33 100|4w31 21r45 32r41 42r40 52r43 60r45 62r42 64r41 66r44
+42R9*Handler<59|44R9> 121e14 100|21r49 32r45 42r44 52r47 60r49 62r46 64r45
+. 66r48
+44U14*Register
+53U14*Register
+60U14*Register_Regexp
+67U14*Register_Regexp
+73U14*Unregister
+79U14*Register_Default_Callback
+89U25 Finalize<59|71p25>
+X 75 aws-services-web_block.ads
+34K22*Web_Block 36e27 101|7r19 28r23
+X 77 aws-services-web_block-registry.ads
+40K32*Registry 163e36 101|7w29 28r33
+137V13*Build{71|59R9} 101|28s42
+138a7 Key{string} 101|29r10
+139r7 Request{79|58R9} 101|30r10
+140r7 Translations{142|233R9} 101|31r10
+X 79 aws-status.ads
+52K13*Status 405e15 100|5w10 26r23 36r23 46r23 56r23 101|22r42 25r32 40r23
+. 43r33 62r23 65r33 94r23 97r33
+58R9*Data 403e14 100|26r30 36r30 46r30 56r30 101|22r49 40r30 62r30 94r30
+79V13*URI{string} 101|25s39 43s40 65s40 97s40
+X 81 aws-templates.ads
+32K13*Templates=32:31 101|8w10 31r26 74r24 76r43
+X 84 aws-utils.ads
+452h9*Clonable
+X 99 landing.ads
+2K9*Landing 8e12 100|7r9 68r5 101|10r14 119r5
+X 100 landing-dispatchers.ads
+7K17*Dispatchers 99|2k9 100|60E9 68l13 68e24 101|10b22 119l13 119t24
+11U14*Initialize 11>26 101|114b14 117l8 117t18
+11r26 Web_Config{49|47R9} 101|114b26 116r57
+21R9*Default<74|42R9> 59|52p13 69P25 70P25 74|44p14 53p14 60p14 67p14 73p14
+. 79p14 89P25 100|24P24 25r23 60c9 60e73 101|22r23
+24V24*Dispatch{71|59R9}<74|91p24> 25>7 26>7 101|21b24 32l8 32t16
+25r7 Dispatcher{21R9} 101|22b7 24r28
+26r7 Request{79|58R9} 101|22b32 25r44 30r26
+32R9*CSS<74|42R9> 59|52p13 69P25 70P25 74|44p14 53p14 60p14 67p14 73p14 79p14
+. 89P25 100|34P24 35r23 62c9 62e70 101|39r23
+34V24*Dispatch{71|59R9}<74|91p24> 35>7 36>7 101|38b24 54l8 54t16
+35r7 Dispatcher{32R9} 101|39b7 42r28
+36r7 Request{79|58R9} 101|40b7 43r45
+42R9*JS<74|42R9> 59|52p13 69P25 70P25 74|44p14 53p14 60p14 67p14 73p14 79p14
+. 89P25 100|44P24 45r23 64c9 64e69 101|61r23
+44V24*Dispatch{71|59R9}<74|91p24> 45>7 46>7 101|60b24 86l8 86t16
+45r7 Dispatcher{42R9} 101|61b7 64r28
+46r7 Request{79|58R9} 101|62b7 65r45
+52R9*Image<74|42R9> 59|52p13 69P25 70P25 74|44p14 53p14 60p14 67p14 73p14
+. 79p14 89P25 100|54P24 55r23 66c9 66e72 101|93r23
+54V24*Dispatch{71|59R9}<74|91p24> 55>7 56>7 101|92b24 108l8 108t16
+55r7 Dispatcher{52R9} 101|93b7 96r28
+56r7 Request{79|58R9} 101|94b7 97r45
+X 101 landing-dispatchers.adb
+15r4 Web_Root{41|87R9} 45r27 67r27 99r27 116m7
+25a7 URI{string} 29r26
+43a7 URI{string} 45r39 45r44 45r61
+44a7 File=45:37{string} 47r30 50r29
+65a7 URI{string} 67r39 67r44 67r61
+66a7 File=67:37{string} 69r30 70r36 75r43 80r32
+97a7 URI{string} 99r39 99r44 99r61
+98a7 File=99:37{string} 101r30 103r48 104r29
+X 103 system.ads
+67M9*Address
+X 111 s-memory.ads
+53V13*Alloc{103|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{103|67M9} 105i<c,__gnat_realloc>22
+X 120 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 122 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 142 templates_parser.ads
+240r4*Null_Set{233R9} 101|31r36 76r53
+484V13*Parse{string} 101|74s34
+485a7 Filename{string} 101|75r27
+486r7 Translations{233R9} 101|76r27
+

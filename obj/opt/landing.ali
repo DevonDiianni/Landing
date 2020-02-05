@@ -1,0 +1,21 @@
+V "GNAT Lib v2019"
+A -O2
+A -gnatA
+A -gnatn
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U landing%s		landing.ads		e9e2a21a NE OO PU PK
+
+D landing.ads		20200205193744 e9e2a21a landing%s
+D system.ads		20190518041258 32a08138 system%s
+G a e
+X 1 landing.ads
+2K9*Landing 8l5 8e12
+5a4*Host{string}
+6N4*Port
+
